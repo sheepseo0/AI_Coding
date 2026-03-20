@@ -1,0 +1,57 @@
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+print("Hello Python!!")
+Hello Python!!
+a = "Hello Python!!"print(a)
+SyntaxError: invalid syntax
+a = "Hello Python!!"
+print(a)
+SyntaxError: multiple statements found while compiling a single statement
+a = "Hello Python!!"print(a)
+SyntaxError: invalid syntax
+a = "Hello Python!!"
+print(a)
+Hello Python!!
+>>> def plus(a,b):
+...     c = a+b
+...     return c
+... 
+>>> ans = plus(4,3)
+>>> print(ans)
+7
+>>> def plus(a,b):
+...     c = a+b
+...     return c
+... 
+>>> ans = 4*plus(4,3)
+>>> print (ans)
+28
+>>> print("Hello World!!")
+... print('Hello', 'World!!')
+... print('Hello'+'World')
+... print(100)
+... print(2+4)
+SyntaxError: multiple statements found while compiling a single statement
+>>> x=100
+>>> y=200
+>>> x**5
+10000000000
+>>> 10000000000
+10000000000
+>>> 
+>>> 
+>>> x=105
+>>> y=10
+>>> 
+>>> x//y
+10
+>>> x%y
+5
+>>> 
+>>> radius = 4.0
+>>> print("원의 반지름", radius)
+원의 반지름 4.0
+>>> print("원의 면적", 3.14 * radius * radius)
+원의 면적 50.24
+>>> print("원의 둘레", 2.0 * 3.14 * radius)
+원의 둘레 25.12
